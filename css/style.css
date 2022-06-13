@@ -1,0 +1,48 @@
+.search {
+    background-color: --var(blanco);
+    border-radius: 20px;
+}
+
+header *{
+    box-sizing: border-box;
+    margin: 0;
+    background: 0;
+    background-color: var(--azul-osc);
+}
+.nav img{
+    cursor: pointer;
+height: 8em;
+width: 8em;
+}
+
+.nav li, a{
+    font-family: var(--font-1-montserrat);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 10px 20px; 
+}
+.nav-links li a {
+    transition: all 0.5s ease 0s;
+}
+.nav-links li a:hover {
+    color: var(    --dorado-med);
+    font-weight: 500;
+}
+
+#headernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    height: 20%;
+    background-color: var(--azul-osc);
+}

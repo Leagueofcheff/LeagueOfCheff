@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --azul-osc: #007DA3;
+    --celeste-cla1: #54D7FF;
+    --celeste-cla2: #38C9F5;
+    --dorado-cla: #A85705;
+    --dorado-med: #F59738;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+
+    --font-1-montserrat: 'Montserrat', sans-serif;
+}
